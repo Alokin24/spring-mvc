@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class IndexController {
 
     @RequestMapping("/")
-    public String getIndex() {
+    public String index() {
         // what view we what rendered
         // trazhi view shto se vika index (Ne mora da e index.html)
         return "index";
